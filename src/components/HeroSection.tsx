@@ -8,9 +8,9 @@ export default function HeroSection() {
             <Header />
             <Navbar />
 
-            <div className={`md:h-137.5 flex justify-start items-center text-white md:px-32`}
+            <div className={`md:h-137.5 flex justify-start items-center text-white `}
             >
-                <div className="flex flex-col justify-start md:justify-center pt-24 gap-9 w-screen h-screen md:h-full md:max-w-1/2 bg-black/50 p-4 rounded-lg px-6 md:px-0">
+                <div className="flex flex-1/2 flex-col justify-start md:justify-center md:px-14 lg:px-32 pt-24 gap-9 w-screen h-screen md:h-full md:max-w-1/2 bg-black/50 p-4 rounded-lg px-6">
                     <h6 >KHAWAJA YANNI</h6>
                     <h1 className="text-5xl md:text-7xl leading-14 md:leading-18">The new <br /> era of luxury</h1>
                     <p className=" font-extralight md:text-lg ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi quas molestiae?</p>
