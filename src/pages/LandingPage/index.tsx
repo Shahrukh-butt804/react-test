@@ -15,7 +15,6 @@ export default function LandingPage() {
       <CardSection />
       <ExperienceSection />
       <FindYourPlaceSection />
-
       <Footer />
     </>
   )
