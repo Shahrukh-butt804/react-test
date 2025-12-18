@@ -2,7 +2,7 @@ import { imageUrl } from '../functions/imageUrl'
 
 export default function FindYourPlaceSection() {
     return (
-        <div className="md:min-h-screen">
+        <div className="md:min-h-screen mt-10 md:mt-0">
             <div className={`flex flex-col-reverse md:flex-row justify-center md:gap-14 items-center text-white `}>
                 <img src={imageUrl("map.png")} alt="" />
 

@@ -2,17 +2,17 @@ import { imageUrl } from "../functions/imageUrl";
 
 export default function Footer() {
   return (
-    <div className="px-4 md:px-32  border-t border-white">
+    <div className="px-4 md:px-32 border-t border-white">
 
       <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-10 md:gap-0 py-10 md:py-16 ">
         <div className="flex-1/2">
-          <img className="md:hidden my-5" src={imageUrl("logo.png")} alt="" />
+          <img className="md:hidden my-7" src={imageUrl("logo.png")} alt="" />
           <h1 className="text-5xl md:text-7xl ">Join us for an <br /> unforgettable experience</h1>
         </div>
 
         <div className="flex-1/2 flex flex-col items-center gap-4">
           <div className="flex flex-col gap-4 md:gap-2">
-            <p className="text-2xl tracking-widest">Download the Groves App</p>
+            <p className="text-xl tracking-widest">Download the Groves App</p>
             <div className="flex justify-center items-center gap-2">
               <img src={imageUrl("app-store.png")} alt="App Store" />
               <img src={imageUrl("play-store.png")} alt="Play Store" />
