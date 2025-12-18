@@ -16,7 +16,11 @@ body {
 } */
 
 
-.themeColor{
+.themeColor {
   background-color: #C39F5D;
 }
 
+
+body {
+  background: transparent linear-gradient(97deg, #283606 0%, #0F1500 100%) 0% 0% no-repeat padding-box;
+}
