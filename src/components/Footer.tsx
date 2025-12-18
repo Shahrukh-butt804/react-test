@@ -23,24 +23,24 @@ export default function Footer() {
       </div>
 
 
-      <div className="flex justify-start items-center flex-wrap gap-72 text-lg">
+      <div className="flex justify-start items-center flex-wrap gap-72 ">
         <div className="flex flex-col gap-3">
-          <p className="text-2xl">Location</p>
+          <p className="text-xl">Location</p>
           <p>Al-Hizam park <br /> Al-semairi , yanbu Al bahr 46455 <br /> Riyadh saudia Arabia</p>
         </div>
         <div className="flex flex-col gap-3">
-          <div>
-            <p className="text-2xl">Woking Hours</p>
+          <div className="flex flex-col gap-2">
+            <p className="text-xl">Woking Hours</p>
             <p>sun until Thurs : 4:00PM <br /> Fri & Sat : 2:30PM</p>
           </div>
-          <div>
-            <p>Gate Close at:</p>
+          <div className="flex flex-col gap-2">
+            <p className="text-xl">Gate Close at:</p>
             <p>sat until wed : 12:00AM <br /> Thurs & Fri  : 12:30AM</p>
           </div>
         </div>
 
         <div className="flex flex-col gap-3">
-          <p className="text-2xl">Guest Service Call</p>
+          <p className="text-xl">Guest Service Call</p>
           <p>cc@thegroves-sa.com</p>
           <p>+966556631309</p>
         </div>
