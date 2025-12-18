@@ -1,3 +1,4 @@
+import { imageUrl } from '../functions/imageUrl'
 import Header from './Header'
 import Navbar from './Navbar'
 
@@ -14,7 +15,7 @@ export default function HeroSection() {
                     <h6 >KHAWAJA YANNI</h6>
                     <h1 className="text-[85px] leading-none">The new era of luxury</h1>
                     <p className="text-lg font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi quas molestiae?</p>
-                    <button className="px-16 py-3.5 themeColor rounded-2xl self-start">Book reservation now -›</button>
+                    <button className="px-6 py-5 flex items-center gap-10 themeColor rounded-2xl self-start text-xl">Book resevation Now <img className="w-6 h-6" src={imageUrl("arrow.svg")} alt="arrow-right" /></button>
                 </div>
             </div>
         </div>
