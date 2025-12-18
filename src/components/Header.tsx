@@ -12,7 +12,7 @@ export default function Header() {
         <li><img src={imageUrl("x.png")} alt="" /></li>
         <li><img src={imageUrl("snap-chat.png")} alt="" /></li>
 
-        <li><button className="px-16 py-3.5 themeColor rounded-[16px]">Log in</button></li>
+        <li><button className="px-16 py-3.5 themeColor rounded-2xl">Log in -----</button></li>
 
         <li className="flex justify-center items-center gap-2"><span className="inline-block rotate-90 text-3xl">›</span> <img src={imageUrl("flag.png")} alt="" />English</li>
       </ul>
