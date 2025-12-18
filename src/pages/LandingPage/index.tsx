@@ -1,5 +1,5 @@
 import BookTicket from "../../components/BookTicket";
-import CardSection from "../../components/cardSection";
+import CardSection from "../../components/CardSection";
 import ExperienceSection from "../../components/ExperienceSection";
 import FindYourPlaceSection from "../../components/FindYourPlaceSection";
 import Footer from "../../components/Footer";
