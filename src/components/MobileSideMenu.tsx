@@ -34,7 +34,14 @@ export default function MobileSidebar({ open, setOpen }: { open: boolean, setOpe
                         <div className="flex justify-center items-center gap-2"><span className="inline-block rotate-90 text-3xl">›</span> <img src={imageUrl("flag.png")} alt="Flag" />English</div>
                         <button className="px-16 py-3.5 themeColor rounded-2xl">Log in</button>
                     </div>
-
+                </div>
+                <div>
+                    <ul className="flex gap-7 items-center px-8 absolute bottom-12 ">
+                        <li><img src={imageUrl("tiktok.png")} alt="TikTok" /></li>
+                        <li><img src={imageUrl("insta.png")} alt="Instagram" /></li>
+                        <li><img src={imageUrl("x.png")} alt="X" /></li>
+                        <li><img src={imageUrl("snap-chat.png")} alt="Snapchat" /></li>
+                    </ul>
                 </div>
             </div>
         </>
