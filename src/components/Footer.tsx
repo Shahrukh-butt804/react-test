@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-10 md:gap-0 py-10 md:py-16 ">
         <div className="flex-1/2">
           <img className="md:hidden my-7" src={imageUrl("logo.png")} alt="" />
-          <h1 className="text-5xl md:text-7xl ">Join us for an <br /> unforgettable experience</h1>
+          <h1 className="text-5xl md:text-5xl leading-16">Join us for an <br /> unforgettable experience</h1>
         </div>
 
         <div className="flex-1/2 flex flex-col items-center gap-4">
@@ -67,9 +67,9 @@ export default function Footer() {
         </ul>
 
         <div className="flex items-center gap-4">
-          <img src={imageUrl("visa.png")} alt="App Store" />
-          <img src={imageUrl("master-card.png")} alt="Play Store" />
-          <img src={imageUrl("american-express.png")} alt="Play Store" />
+          <img src={imageUrl("visa.png")} alt="visa" />
+          <img src={imageUrl("master-card.png")} alt="master-card" />
+          <img src={imageUrl("american-express.png")} alt="american-express" />
         </div>
 
 

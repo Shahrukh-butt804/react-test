@@ -21,7 +21,7 @@ export default function CardSection() {
         <div className="flex justify-center items-center px-4 md:px-0">
             <div className="flex flex-col gap-5 py-10 justify-center items-center ">
                 <div className="max-w-5xl flex flex-col gap-5 md:py-10 justify-center items-center ">
-                    <h1 className="text-4xl md:text-6xl md:max-w-3xl leading-10 md:leading-18">Experience the Finest Cuisine</h1>
+                    <h1 className="text-4xl md:text-5xl md:max-w-3xl leading-10 md:leading-18">Experience the Finest Cuisine</h1>
                     <p className="text-center hidden md:block px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque eveniet recusandae ea. Vel repellendus iusto eaque porro nemo neque illum voluptate maiores voluptatibus esse dolorum praesentium facere?  Eaque eveniet recusandae ea. Vel repellendus iusto eaque porro nemo neque illum voluptate maiores </p>
                 </div>
 

@@ -25,7 +25,7 @@ export default function MobileSidebar({ open, setOpen }: { open: boolean, setOpe
                             key={item}
                             href="#"
                             onClick={() => setOpen(false)}
-                            className="block px-7 py-5 text-gray-300 hover:bg-gray-800 hover:text-white border-b border-gray-200 text-lg tracking-wide font-semibold"
+                            className="block px-7 py-3.5 text-gray-300 hover:bg-gray-800 hover:text-white border-b border-gray-200 text-lg tracking-wide font-semibold"
                         >
                             {item}
                         </a>
