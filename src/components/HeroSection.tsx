@@ -8,16 +8,15 @@ export default function HeroSection() {
             <Header />
             <Navbar />
 
-            <div className={`h-137.5 flex justify-start items-center text-white px-32`}
-
+            <div className={`md:h-137.5 flex justify-start items-center text-white md:px-32`}
             >
-                <div className="flex flex-col justify-center gap-8 max-w-lg bg-black/50 p-4 rounded-lg h-full">
+                <div className="flex flex-col justify-start md:justify-center pt-24 gap-9 w-screen h-screen md:h-full md:max-w-lg bg-black/50 p-4 rounded-lg px-6 md:px-0">
                     <h6 >KHAWAJA YANNI</h6>
-                    <h1 className="text-[85px] leading-none">The new era of luxury</h1>
-                    <p className="text-lg font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi quas molestiae?</p>
-                    <button className="px-6 py-5 flex items-center gap-10 themeColor rounded-2xl self-start text-xl">Book resevation Now <img className="w-6 h-6" src={imageUrl("arrow.svg")} alt="arrow-right" /></button>
+                    <h1 className="text-5xl md:text-7xl leading-14 md:leading-18">The new <br /> era of luxury</h1>
+                    <p className=" font-extralight md:text-lg ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi quas molestiae?</p>
+                    <button className="px-4 md:px-6 py-4 md:py-5 flex items-center gap-10 themeColor rounded-3xl self-start text-md md:text-xl text-start ">Book resevation Now <img className="w-6 h-6" src={imageUrl("arrow.svg")} alt="arrow-right" /></button>
                 </div>
             </div>
         </div>
     )
-}
+}   

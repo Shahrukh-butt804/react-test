@@ -19,12 +19,12 @@ export default function BookTicket() {
 
 
     return (
-        <div className="flex flex-col gap-10 px-32 mt-24">
-            <h1 className="text-5xl  max-w-3xl">Book General Access ticket and enjoy the attractions for free</h1>
+        <div className="flex flex-col gap-10 px-4 md:px-32 mt-4 md:mt-24">
+            <h1 className="text-4xl md:text-6xlleading-10 md:leading-18 md:max-w-3xl">Book General Access ticket and enjoy the attractions for free</h1>
 
             <button className="px-6 py-5 flex items-center gap-10 themeColor rounded-2xl self-start text-xl">Book General Access Ticket <img className="w-6 h-6" src={imageUrl("arrow.svg")} alt="arrow-right" /></button>
 
-            <div className="flex gap-8">
+            <div className="flex flex-col md:flex-row gap-8">
                 {images.map((image, index) => (
                     <div key={index} className={`rounded-3xl flex flex-col items-center justify-center`} >
                         <img src={image.src} alt={image.alt} />
